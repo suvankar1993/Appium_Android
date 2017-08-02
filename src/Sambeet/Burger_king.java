@@ -129,7 +129,7 @@ Thread.sleep(22000);
 			
 		}
 		
-		System.out.println("sambeet");
+		System.out.println();
 		WebDriverWait wait4= new WebDriverWait(driver, 50);
 		WebElement ele_Signin= wait4.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//android.view.View[@index='33'][@content-desc='SIGN IN']")));
 		System.out.println("Sign in element is displayed  "+ele_Signin.isDisplayed());
